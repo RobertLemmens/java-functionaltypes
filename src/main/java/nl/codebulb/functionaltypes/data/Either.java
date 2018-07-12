@@ -1,9 +1,11 @@
-package nl.codebulb.functionaltypes;
+package nl.codebulb.functionaltypes.data;
+
+import nl.codebulb.functionaltypes.Functor;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public abstract class Either<L,R> implements Functor<L,Either<?,?>>{ //Gebruik Monad instead?
+public abstract class Either<L,R> implements Functor<L,Either<?,?>> { //Gebruik Monad instead?
 
     private Either() {}
 
